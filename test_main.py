@@ -28,7 +28,7 @@ def test_post_method_inference_0():
     }
     response = client.post("/inference/", json=inference_data_0)
     assert response.status_code == 200, "response not successful with {}".format(response.json())
-    assert response.json() == {"prediction":[0]}, "prediction is wrong, '[0]' were expected"
+    assert response.json() == {"prediction":[0]}, "prediction is wrong, '[0]' were expected!"
 
 def test_post_method_inference_1():
     # Inference data as a dict (1:>50K)
@@ -50,4 +50,4 @@ def test_post_method_inference_1():
     }
     response = client.post("/inference/", json=inference_data_1)
     assert response.status_code == 200, "response not successful with {}".format(response.json())
-    assert response.json() == {"prediction":[1]}, "prediction is wrong, '[1]' were expected"
+    assert response.json() == {"prediction":[1]}, "prediction is wrong, '[1]' were expected!"
