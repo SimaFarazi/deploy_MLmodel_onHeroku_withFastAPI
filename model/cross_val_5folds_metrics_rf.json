@@ -1,0 +1,18 @@
+{
+'Training Accuracy scores':'[1.         0.99995201 1.         0.99990403 0.99985604]'
+'Mean Training Accuracy':'99.99424152023681'
+'Training Precision scores':'[1. 1. 1. 1. 1.]'
+'Mean Training Precision':'1.0'
+'Training Recall scores':'[1.         0.99980016 1.         0.99960032 0.99940048]'
+'Mean Training Recall':'0.9997601918465227'
+'Training F1 scores':'[1.         0.99990007 1.         0.99980012 0.99970015]'
+'Mean Training F1 Score':'0.9998800679608231'
+'Validation Accuracy scores':'[0.8547025  0.85239923 0.85566219 0.85793818 0.85083509]'
+'Mean Validation Accuracy':'85.43074385135134'
+'Validation Precision scores':'[0.73434535 0.7239777  0.74341463 0.73080397 0.7166362 ]'
+'Mean Validation Precision':'0.7298355705008539'
+'Validation Recall scores':'[0.61870504 0.62270184 0.60911271 0.64668265 0.62669864]'
+'Mean Validation Recall':'0.6247801758593126'
+'Validation F1 scores':'[0.67158351 0.66953159 0.66959578 0.68617472 0.66865672]'
+'Mean Validation F1 Score':'0.6731084645333747'
+}
