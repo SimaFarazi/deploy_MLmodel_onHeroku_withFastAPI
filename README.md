@@ -15,6 +15,7 @@ This repository provides required code for third project of MLDevOps course.
 ## Deploy API on Heroku
 An App is created on Heroku and connected to this git repo  
 The App is automatically deployed(CD) after tests are passed in Github Action(CI)  
+Corresponding file for Github Action can be found in .github/workflows/PytestFlake8.yml  
 **request_post_live.py** contains request.post to test the live App
 
 
